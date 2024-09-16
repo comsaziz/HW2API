@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+ <div class="content">
+    <h2>Get Started Now</h2>
+    <p>Alredy have an Account ? <a href="Login.html">Log in</a></p>
+
+    <form id="signup-form">
+        <label for="text">Name</label>
+        <input type="text" id="username" placeholder="Enter your name">
+        <label for="text">Email</label>
+        <input type="email" id="email" placeholder="Enter your Email">
+        <label for="text">Password</label>
+        <input type="password" id="password" placeholder="Enter the Password">
+        <br>
+        <button id="bt_submit" type="submit">Sign up</button>
+   
+        <p id="error_message" style="color:red;"></p>
+    </form>
+
+    <div class="line">
+        <hr>
+        <p>or sign up with</p>
+        <hr>
+
+    </div>
+
+    <div class="social-signup">
+        <i class="fa-brands fa-apple fa-xl social-icon"></i>
+        <i class="fa-brands fa-github fa-lg social-icon"></i>
+    </div>
+</div>
+
+
+
+<script src="signup.js"></script>
+
+</body>
+</html>
